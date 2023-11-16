@@ -18,6 +18,7 @@
 
 ### Message Type
 - 读消息
+请求消息，用于通知其他处理器、主内存，
 - 读消息响应
 - 使无效消息
 - 使无效消息的响应
@@ -61,10 +62,10 @@ CPU 都将状态置为 I 之后，才将 Store Buffer 中的数据写入到 Cach
 上面写端的 CPU 使用 Store Buffer 消除了同步等待其他 CPU 缓存行失效标志设置返回 ack 的过程。 而其他都到 Invalidate 消息的 CPU 也不会真的
 把 Cache Line 的标志为设置为 I 之后才响应 ACK, 而是将它写入到一个 Invalidate Queue 中，然后就发送 Ack 了。 后续 CPU 会异步扫描 Invalidate 
 Queue, 批量设置为 I 状态。  
-和 Store Buffer 不同的是，CPU0 后续读取变量 X 的时候，会先查询 Store Buffer, 然后查询缓存。 而 CPU1 则不会扫描 invalidate Queue,因此可能存在
-脏读。
-
+和 Store Buffer 不同的是，CPU0 后续读取变量 X 的时候，会先查询 Store Buffer, 然后查询缓存。 而 CPU1 则不会扫描 invalidate Queue,因此可能存在脏读。
 
 ## Ref
+[MESI details](https://www.cnblogs.com/jiagoujishu/p/13799459.html)   
 [MESI](https://zhuanlan.zhihu.com/p/33445834)  
+[CPU 缓存一致性-MESI-brpc](https://zhuanlan.zhihu.com/p/351550104)  
 [CPU 缓存一致性](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247486479&idx=1&sn=433a551c37a445d068ffbf8ac85f0346&chksm=f98e48a5cef9c1b3fadb691fee5ebe99eb29d83fd448595239ac8a2f755fa75cacaf8e4e8576&scene=21#wechat_redirect)  
