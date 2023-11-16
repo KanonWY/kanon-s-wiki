@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="28f7e53b">
+        <description><![CDATA[Created after removal of "<ecal_benchmark.md>" from instanceName]]></description>
+        <accepts>ecal_benchmark.html</accepts>
+    </rule>
+    <rule id="7aa39dee">
+        <description>Created after removal of "good" from instanceName</description>
+        <accepts>goodman.html</accepts>
+    </rule>
+    <rule id="70af7d88">
+        <description>Created after removal of "google_benchmark" from instanceName</description>
+        <accepts>google-benchmark.html</accepts>
+    </rule>
+    <rule id="3d16ec84">
+        <description>Created after removal of "学习链接" from instanceName</description>
+        <accepts>link.html</accepts>
+    </rule>
+</rules>

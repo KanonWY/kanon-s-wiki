@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                  name="instanceName" start-page="README.md">
+
+    <toc-element toc-title="kanon's wiki">
+        <toc-element topic="README.md"/>
+        <toc-element toc-title="computer_system">
+            <toc-element topic="cpu_instruction.md"/>
+            <toc-element topic="memory_order_compile_time.md"/>
+            <toc-element topic="cacheline.md"/>
+            <toc-element topic="acquire_and_release.md"/>
+            <toc-element topic="Memory_Models.md"/>
+            <toc-element topic="memory_order_at_runtime.md"/>
+            <toc-element topic="fence.md"/>
+        </toc-element>
+        <toc-element toc-title="perftools">
+            <toc-element topic="google-benchmark.md"/>
+            <toc-element topic="bench_protobuf.md"/>
+            <toc-element topic="cpuperf.md"/>
+        </toc-element>
+        <toc-element toc-title="cpp">
+            <toc-element topic="Happens-before.md"/>
+            <toc-element topic="current_program_base.md"/>
+            <toc-element topic="inline.md"/>
+            <toc-element topic="cmake_deal_warn.md"/>
+        </toc-element>
+        <toc-element toc-title="midware">
+            <toc-element toc-title="iceoryx">
+                <toc-element topic="iceoryx.md"/>
+            </toc-element>
+            <toc-element toc-title="ecal">
+                <toc-element topic="shm.md"/>
+            </toc-element>
+        </toc-element>
+    </toc-element>
+</instance-profile>
