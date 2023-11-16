@@ -3,11 +3,13 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                  name="instanceName" start-page="README.md">
+                  name="Kanon wiki" start-page="README.md">
 
     <toc-element toc-title="kanon's wiki">
         <toc-element topic="README.md"/>
         <toc-element toc-title="computer_system">
+            <toc-element topic="MESI.md"/>
+            <toc-element topic="out-of-order-ececution.md"/>
             <toc-element topic="cpu_instruction.md"/>
             <toc-element topic="memory_order_compile_time.md"/>
             <toc-element topic="cacheline.md"/>

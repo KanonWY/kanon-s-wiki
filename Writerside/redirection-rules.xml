@@ -22,4 +22,8 @@
         <description>Created after removal of "学习链接" from instanceName</description>
         <accepts>link.html</accepts>
     </rule>
+    <rule id="6da3bf5f">
+        <description>Created after removal of "test" from Kanon wiki</description>
+        <accepts>test.html</accepts>
+    </rule>
 </rules>

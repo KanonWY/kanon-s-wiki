@@ -1,4 +1,4 @@
-# memory-ordering-at-compile-time
+# Memory-ordering-at-compile-time
 
 _**本文内容是对 Ref 中的翻译结合个人理解。**_
 
