@@ -26,4 +26,8 @@
         <description>Created after removal of "test" from Kanon wiki</description>
         <accepts>test.html</accepts>
     </rule>
+    <rule id="780edca">
+        <description>Created after removal of "shell" from Kanon wiki</description>
+        <accepts>shell.html</accepts>
+    </rule>
 </rules>
