@@ -91,3 +91,4 @@ http://www.rdrop.com/users/paulmck/scalability/paper/whymb.2010.07.23a.pdf
 [写屏障](https://blog.csdn.net/lz710117239/article/details/123457011)    
 [读屏障](https://blog.csdn.net/lz710117239/article/details/123460027)  
 [知乎内存屏障](https://zhuanlan.zhihu.com/p/491567798)  
+[罗 知乎](https://zhuanlan.zhihu.com/p/45808885)  
