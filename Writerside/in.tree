@@ -6,6 +6,19 @@
                   name="Kanon wiki" start-page="README.md">
 
     <toc-element toc-title="kanon's wiki">
+        <toc-element topic="go.topic">
+            <toc-element topic="traefik.md"/>
+        </toc-element>
+        <toc-element topic="Jenkins.md">
+            <toc-element topic="JenkinsBase.md"/>
+        </toc-element>
+        <toc-element topic="network.md">
+            <toc-element topic="netfilter-iptables.md"/>
+        </toc-element>
+        <toc-element topic="Docker.md">
+            <toc-element topic="DockerNetBase.md"/>
+            <toc-element topic="DockerNet-Senior.md"/>
+        </toc-element>
         <toc-element topic="Autopilot.md">
             <toc-element topic="link.md"/>
         </toc-element>
@@ -14,6 +27,7 @@
         </toc-element>
         <toc-element topic="README.md"/>
         <toc-element toc-title="computer_system">
+            <toc-element topic="Memory-order.md"/>
             <toc-element topic="MESI.md"/>
             <toc-element topic="out-of-order-ececution.md"/>
             <toc-element topic="cpu_instruction.md"/>
