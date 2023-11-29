@@ -6,11 +6,16 @@
                   name="Kanon wiki" start-page="README.md">
 
     <toc-element toc-title="kanon's wiki">
+        <toc-element topic="README.md"/>
+        <toc-element topic="jenkins.md">
+            <toc-element topic="jenkins-docker.md"/>
+            <toc-element topic="pipelineBase.md"/>
+            <toc-element topic="jenkins-git.md"/>
+        </toc-element>
         <toc-element topic="Network.md">
             <toc-element topic="ASIO-MULTICAST.md"/>
             <toc-element topic="MULTICAST.md"/>
         </toc-element>
-        <toc-element topic="README.md"/>
         <toc-element toc-title="computer_system">
             <toc-element topic="MESI.md"/>
             <toc-element topic="out-of-order-ececution.md"/>
