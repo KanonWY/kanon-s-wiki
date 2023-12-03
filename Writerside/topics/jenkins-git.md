@@ -42,9 +42,3 @@ pipeline {
 }
 ```
 doGenerateSubmoduleConfigurations 为 true 则会拉取该仓库的所有子库，false 则不会拉取所有的子库。
-
-## 2、Jenkins 代码拉取控制
-GitSCM 配置 extensions 和 submoduleCfg 可以进行更加细致的拉取配置
-```Groovy
-
-```
