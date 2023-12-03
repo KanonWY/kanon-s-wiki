@@ -20,3 +20,5 @@
 [pipeline 基本语法](https://www.cnblogs.com/FLY_DREAM/p/17279733.html)  
 [部署基础](https://github.com/zhouxinlei828/sparkzxl-framework/tree/master/docs/forward/deploy)  
 [官方文档](https://www.jenkins.io/zh/doc/book/pipeline/jenkinsfile/)  
+[图文文档](https://mdnice.com/writing/eaf78c6cd2cf44b7aba8cbc6431ecead)  
+[jenkins 官方中文文档](https://www.k8stech.net/jenkins-docs/pipelinesyntax/chapter03/)  

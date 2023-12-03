@@ -6,8 +6,13 @@
                   name="Kanon wiki" start-page="README.md">
 
     <toc-element toc-title="kanon's wiki">
+        <toc-element topic="Docker.md"/>
         <toc-element topic="README.md"/>
         <toc-element topic="jenkins.md">
+            <toc-element topic="jenkin-clang-tidy.md"/>
+            <toc-element topic="coderrect.md"/>
+            <toc-element topic="Jenkins-cppcheck.md"/>
+            <toc-element topic="JenkinsKeyWord.md"/>
             <toc-element topic="jenkins-docker.md"/>
             <toc-element topic="pipelineBase.md"/>
             <toc-element topic="jenkins-git.md"/>
