@@ -29,5 +29,8 @@
     <rule id="780edca">
         <description>Created after removal of "shell" from Kanon wiki</description>
         <accepts>shell.html</accepts>
+    <rule id="27689039">
+        <description>Created after removal of "Network" from Kanon wiki</description>
+        <accepts>Network.html</accepts>
     </rule>
 </rules>

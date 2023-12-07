@@ -25,7 +25,28 @@
         <toc-element topic="shell.md">
             <toc-element topic="awk.md"/>
         </toc-element>
+        <toc-element topic="GitBase.md">
+            <toc-element topic="git-tag.md"/>
+            <toc-element topic="git-error.md"/>
+            <toc-element topic="gitsubmodule.md"/>
+            <toc-element topic="git-cred.md"/>
+        </toc-element>
+        <toc-element topic="Docker.md"/>
         <toc-element topic="README.md"/>
+        <toc-element topic="jenkins.md">
+            <toc-element topic="jenkin-clang-tidy.md"/>
+            <toc-element topic="coderrect.md"/>
+            <toc-element topic="Jenkins-cppcheck.md"/>
+            <toc-element topic="JenkinsKeyWord.md"/>
+            <toc-element topic="jenkins-docker.md"/>
+            <toc-element topic="pipelineBase.md"/>
+            <toc-element topic="jenkins-git.md"/>
+        </toc-element>
+        <toc-element topic="Network.md">
+            <toc-element topic="pythonExample.md"/>
+            <toc-element topic="ASIO-MULTICAST.md"/>
+            <toc-element topic="MULTICAST.md"/>
+        </toc-element>
         <toc-element toc-title="computer_system">
             <toc-element topic="Memory-order.md"/>
             <toc-element topic="MESI.md"/>
