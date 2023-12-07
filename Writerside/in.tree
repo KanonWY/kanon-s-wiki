@@ -24,6 +24,7 @@
             <toc-element topic="jenkins-git.md"/>
         </toc-element>
         <toc-element topic="Network.md">
+            <toc-element topic="pythonExample.md"/>
             <toc-element topic="ASIO-MULTICAST.md"/>
             <toc-element topic="MULTICAST.md"/>
         </toc-element>
