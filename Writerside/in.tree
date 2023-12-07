@@ -6,6 +6,12 @@
                   name="Kanon wiki" start-page="README.md">
 
     <toc-element toc-title="kanon's wiki">
+        <toc-element topic="GitBase.md">
+            <toc-element topic="git-tag.md"/>
+            <toc-element topic="git-error.md"/>
+            <toc-element topic="gitsubmodule.md"/>
+            <toc-element topic="git-cred.md"/>
+        </toc-element>
         <toc-element topic="Docker.md"/>
         <toc-element topic="README.md"/>
         <toc-element topic="jenkins.md">
